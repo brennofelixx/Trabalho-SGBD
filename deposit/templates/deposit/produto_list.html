@@ -1,0 +1,19 @@
+{% extends "deposit/base.html" %}
+
+{% block title %}Lista de Produtos:{% endblock %}
+
+{% block content %}
+    {% for produto in produto_list %}
+        <article>
+            <h2>
+                <a href="{{ produto.get_absolute_url }}">
+                    {{ produto.nome }}
+                </a>
+            </h2>
+            <p>
+                <b>Categoria:</b> {{ produto.categoria }} <br> <b>ID:</b> {{ produto.id }}
+            </p>
+            {{linebreaks}}
+        </article>
+    {% endfor %}
+{% endblock %}

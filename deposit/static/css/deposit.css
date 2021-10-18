@@ -1,0 +1,26 @@
+body {
+    margin: 0 25%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #111111;  
+; 
+}
+
+h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid;
+    border-color: #971b1b;
+}
+
+h2 {
+    color: #971b1b;
+    font-weight: normal;
+    margin-bottom: 1px;
+}
+
+a {
+    color:#971b1b;
+    text-decoration:none;
+}

@@ -1,0 +1,10 @@
+{% extends "deposit/base.html" %}
+
+{% block title %}{{ produto.nome }}{% endblock %}
+
+{% block content %}
+    <h2>{{ produto.nome }}</h2>
+    <b>Categoria: </b>{{ produto.categoria }} <br> <b>ID: </b>{{ produto.id }} <br>
+    <b>Preço: </b>{{ produto.preco }} <br> <b>Quantidade: </b>{{ produto.quantidade }}
+    {{linebreaks}}
+{% endblock %}
